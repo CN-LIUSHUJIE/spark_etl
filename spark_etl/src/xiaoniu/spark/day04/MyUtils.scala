@@ -21,7 +21,7 @@ object MyUtils {
   def  get_id(){
     val data = UUID.randomUUID().toString()
       data
-  }
+  } 
 
   def ip2Long(ip: String): Long = {
     val fragments = ip.split("[.]")
